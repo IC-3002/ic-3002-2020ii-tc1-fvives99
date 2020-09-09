@@ -11,11 +11,11 @@ def e_cuadratica(n):
 
 
 def e_lineal(n):
-	euler = 0
+	result = 0
 	factorial = 1
 	for i in range(1,n):
-		euler += 1/factorial
+		result += 1/factorial
 		factorial *= i
-	return euler
+	return result
 
 
